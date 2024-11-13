@@ -31,23 +31,14 @@
             transition: all 0.5s;
         }
         header{
-            padding: 50px 30px 120px 30px;
+            padding: 50px 30px 50px 30px;
             background-color: #408582;
+            margin-bottom: 30px;
         }
         .wrapper{
             max-width: 930px;
             margin: 0 auto;
             padding: 0 15px;
-        }
-        .top-box{
-            background-color: #fff;
-            width: 100%;
-            float: left;
-            margin-top: -80px;
-            -webkit-box-shadow: 0 0 10px 0 #b4b4b4;
-            -moz-box-shadow: 0 0 10px 0 #b4b4b4;
-            box-shadow: 0 0 10px 0 #b4b4b4;
-            margin-bottom: 20px;
         }
         .name{
             margin-bottom: 0;
@@ -71,10 +62,6 @@
         .fr{
             float: right;
         }
-        .image-box img{
-            max-width: 300px;
-            vertical-align: top;
-        }
         .white-color{
           color: #fff;
         }
@@ -84,35 +71,7 @@
         ul li{
             margin-bottom: 5px;
         }
-        .bio-box{
-            padding: 30px;
-        }
-        .social-links a{
-            display: table;
-            background-color: #408582;
-            color: #fff;
-            width: 45px;
-            height: 45px;
-            -webkit-border-radius: 50%;
-            -moz-border-radius: 50%;
-            border-radius: 50%;    font-size: 20px;
-            padding: 10px;
-            text-align: center;
 
-        }
-        .social-links{
-            margin-top: 15px;
-        }
-        .social-links a i{
-            color: #fff;
-        }
-        .social-links a:hover{
-            background-color: #4ba4a1;
-        }
-        .social-links li{
-            display: inline-block;
-            margin-right: 5px;
-        }
         .block-title{
             color: #408582;
             clear: both;
@@ -296,14 +255,6 @@
         .portfolio{
             min-height: 800px;
         }
-        .bio-box b{
-            display: inline-block;
-            min-width: 80px;
-        }
-        .bio-box a{
-            text-decoration: none;
-            color: #333;
-        }
         @media only screen and (max-width: 1100px) {
             .education-2:before{
                 margin-left: -9px;
@@ -312,15 +263,7 @@
                 margin-right: -9px;
             }
         }
-        @media only screen and (max-width: 800px) {
-            .image-box{
-                width: 100%;
-            }
-            .image-box img{
-                display: table;
-                margin: 0 auto;
-            }
-        }
+
     </style>
 </head>
 
@@ -334,55 +277,6 @@
 </header>
 <div>
     <div class="wrapper">
-        <div class="top-box">
-            <div class="fl image-box">
-                <img src="images/Arman.png" alt="Arman Shavelyan">
-            </div>
-            <div class="fl bio-box">
-                <ul>
-                    <li>
-                        <h2 >I'm Arman Shavelyan</h2>
-                        <p>
-                            I am Senior web developer and I <br> have over 10 years experience.
-                        </p>
-                    </li>
-                    <li>
-                        <span> <b> Age: </b> 27</span>
-                    </li>
-                    <li>
-                        <span> <b> Email: </b> <a href="mailto:ashavelyan@gmail.com">ashavelyan@gmail.com</a></span>
-                    </li>
-                </ul>
-                <ul class="social-links">
-                     <li>
-                        <a href="skype:arman.shavelyan1?call" target="_blank" title="Skype"> <i class="fa fa-skype" aria-hidden="true"></i></a>
-                    </li>
-             
-                    <li>
-                        <a href="https://www.linkedin.com/in/arman-shavelyan-a1019613b/" target="_blank" title="Linkedin"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.upwork.com/freelancers/~01497fb7b5d51506c3?viewMode=1" target="_blank" title="Upwork" class="upwork icon-bg"> </a>
-                    </li>
-                     <li>
-                        <a href="https://github.com/devArman" target="_blank" title="GitHUb"><i class="fa fa-github" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.guru.com/freelancers/arman-shavelyan" target="_blank" title="Guru" class="guru icon-bg"> </a>
-                    </li>
-                    <li>
-                        <a href="https://www.peopleperhour.com/freelancer/arman/seasoned-php-developer/1352403" target="_blank" title="Peopleperhour" class="peopleperhour icon-bg"> </a>
-                    </li>
-                    <li>
-                        <a href="https://www.freelancer.com/u/armanshavelyan1" target="_blank" title="Freelancer" class="freelancer icon-bg"> </a>
-                    </li>
-                   
-                       <li>
-                        <a href="https://talent.hubstaff.com/profiles/arman-shavelyan" target="_blank" title="Hubstaff" class="hubstaff icon-bg"> </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
         <h2 class="block-title">Skills</h2>
         <div class="white-box">
          <p>
@@ -427,7 +321,7 @@
             <p>
                 Working with big team , Armenia Yerevan <br>
                 Jan 2008 – Aug 2012 <br>
-                I have created few API for mobile applications . worked on the strong backend / big data/ code optimization
+                I have created  APIs for mobile applications . Worked on backend / big data/ code optimization
             </p>
             <p>
                 <b> Team leader/ PHP expert</b>
@@ -435,7 +329,7 @@
             <p>
                 Iguan Systems, Armenia<br>
                 Aug 2012 – Sep 2015 <br>
-                I have been lead developer
+                I have been a lead developer
             </p>
             <p>
                 <b>  Senior developer</b>
@@ -450,8 +344,15 @@
             </p>
             <p>
                 <a href="https://ibcgroup.io" target="_blank">https://ibcgroup.io</a> , UK London<br>
-                Dec 2016 <br>
-                I am working on a<a href="https://ibcgroup.io" target="_blank"> https://ibcgroup.io</a> as a Senior web developer.
+                Dec 2016 - Dec 2018<br>
+                I worked on a<a href="https://ibcgroup.io" target="_blank"> https://ibcgroup.io</a> as a Senior web developer.
+            </p>
+           <p>
+                <b>  Senior Web Developer/ Team Lead</b>
+            </p>
+            <p>
+                Dec 2018 - Present<br>
+                I am working as a freelancer.
             </p>
         </div>
         <h2 class="block-title">Formal   Education</h2>
@@ -474,12 +375,13 @@
             </div>
         </div>
 
-        <h2 class="block-title">Projects for the last 3 years</h2>
+        <h2 class="block-title">Projects for the last 7 years</h2>
         <div class="white-box portfolio">
             <ul id="filters">
                 <li><button data-filter="*" class="selected">Show all</button></li>
                 <li><button data-filter=".php">PHP</button></li>
                 <li><button data-filter=".laravel" >Laravel</button></li>
+                <li><button data-filter=".react">React</button></li>
                 <li><button data-filter=".node">Node</button></li>
                 <li><button data-filter=".wordpress">Wordpress</button></li>
                 <li><button data-filter=".magento">Magento</button></li>
@@ -494,7 +396,7 @@
                             <img src="images/usbpi.png" alt="usbpi">
                         </a>
                     </div>
-                <div class="item magento">
+                <div class="item magento react">
                     <a href="https://www.horecaworld.biz/" target="_blank">
                         <img src="images/horeca.jpg" alt="horeca">
                     </a>
@@ -509,7 +411,7 @@
                         <img src="images/birddesk.png" alt="usbpi">
                     </a>
                 </div>
-                <div class="item magento">
+                <div class="item magento react">
                     <a href="https://www.gooshoreca.nl/" target="_blank">
                         <img src="images/gooshoreca.jpg" alt="gooshoreca">
                     </a>
@@ -524,7 +426,11 @@
                         <img src="images/drunens.jpg" alt="drunens">
                     </a>
                 </div>
-
+                <div class="item react magento">
+                    <a href="https://www.goosgastro.de/" target="_blank">
+                        <img src="images/goosgastro.png" alt="huber">
+                    </a>
+                </div>
                 <div class="item magento">
                     <a href="https://staging.defenders.org/" target="_blank">
                         <img src="images/defenders.png" alt="defenders">
@@ -558,6 +464,11 @@
                 <div class="item wordpress">
                     <a href="https://www.msaresearch.com/" target="_blank">
                         <img src="images/msaresearch.jpg" alt="msaresearch">
+                    </a>
+                </div>
+                <div class="item wordpress">
+                    <a href="https://globalpostauditing.com/" target="_blank">
+                        <img src="images/global.png" alt="huber">
                     </a>
                 </div>
                 <div class="item laravel">
@@ -599,6 +510,47 @@
                 <div class="item VueJS">
                     <a href="https://www.huber.li/" target="_blank">
                         <img src="images/huber.jpg" alt="huber">
+                    </a>
+                </div>
+                
+                <div class="item wordpress">
+                    <a href="https://bostoncityscapes.com/" target="_blank">
+                        <img src="images/cityscapes.png" alt="huber">
+                    </a>
+                </div>
+                <div class="item php">
+                    <a href="https://xpath.global/" target="_blank">
+                        <img src="images/xpath.png" alt="huber">
+                    </a>
+                </div>
+                <div class="item wordpress">
+                    <a href="https://letterstomysistersandbrothers.com/" target="_blank">
+                        <img src="images/liberate.png" alt="huber">
+                    </a>
+                </div>
+                <div class="item wordpress">
+                    <a href="https://avidrealtypartners.com/" target="_blank">
+                        <img src="images/avid.png" alt="huber">
+                    </a>
+                </div>
+                <div class="item react">
+                    <a href="https://campaignrefinery.com/" target="_blank">
+                        <img src="images/campaign refinery.png" alt="huber">
+                    </a>
+                </div>
+                <div class="item magento">
+                    <a href="https://www.gastrosteel.nl/" target="_blank">
+                        <img src="images/gastrosteel.png" alt="huber">
+                    </a>
+                </div>
+                <div class="item php">
+                    <a href="https://www.iwriter.com/" target="_blank">
+                        <img src="images/iwriter.png" alt="huber">
+                    </a>
+                </div>
+                <div class="item wordpress">
+                    <a href="https://nuvocapitalpartners.com/" target="_blank">
+                        <img src="images/nuvo.png" alt="huber">
                     </a>
                 </div>
             </div>
